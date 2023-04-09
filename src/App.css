@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: #0b0b13d6;
-  height: 99vh;
+  height:calc(100vh - -108px)
 }
 
 .App h4 {
