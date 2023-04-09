@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Scatter from "./pages/Scatter/Scatter";
+import Bar from "./pages/Bar/Bar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{padding: '20px'}} className="App">
+        <h2>Manufac Data Visualization Task</h2>
+
+          {/*HTML to show Scatter graph*/}
+      <Scatter/>
+
+        {/*HTML to show Bar graph*/}
+      <Bar/>
     </div>
   );
 }
